@@ -1,0 +1,2 @@
+iverilog -o parity_sim parity_generator.v parity_generator_tb.v
+vvp parity_sim
